@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <p>Phaser Demo | Apple Catcher</p>
+    </header>
+    <main>
+      <canvas id="gameCanvas"></canvas>
+      <div id="gameStartDiv" class="gameUI">
+        <h1>Apple Catcher</h1>
+        <p>You have 30 seconds to catch apples!</p>
+        <p>more than 10 Apple => WIN</p>
+        <p>less than 10 Apple => LOSE</p>
+        <p>Click start to begin and end my suffering</p>
+        <button id="gameStartBtn"><p>Start</p></button>
+      </div>
+      <div id="gameEndDiv" class="gameUI">
+        <p>Game Over</p>
+        <p>Welcome aboard on the boat with Charon by my side</p>
+        <h1>You <span id="gameWinLoseSpan"></span></h1>
+        <h1>Final Score: <span id="gameEndScoreSpan"></span></h1>
+        <p>Refresh the page to play again and keep on suffering like a maniac</p>
+      </div>
+    </main>
+    <footer>
+      Created by Nutty at 2AM 💀
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
